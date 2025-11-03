@@ -31,6 +31,11 @@ The CGPA Calculator provides an intuitive interface where you can:
 - Easily remove courses with a single click
 - View your semester GPA separately
 
+### Screenshots for various screens
+![Mobile](demo/mobile-screen.png)
+![Tablet](demo/tablet-screen.png)
+![Desktop](demo/large-screen.png)
+
 ## Contributing
 
 Feel free to open issues and pull requests for any improvements you think would make the calculator better!
