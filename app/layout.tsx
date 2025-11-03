@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
 
-// ✅ Google Font Setup
+// Google Font Setup
 const geistSans = Ubuntu({
   variable: "--font-geist-sans",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
 });
 
-// ✅ SEO Metadata
+//  SEO Metadata
 export const metadata: Metadata = {
   title: "UIU CGPA Calculator | United International University",
   description:
