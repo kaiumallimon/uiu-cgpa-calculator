@@ -34,3 +34,7 @@ The CGPA Calculator provides an intuitive interface where you can:
 ## Contributing
 
 Feel free to open issues and pull requests for any improvements you think would make the calculator better!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
