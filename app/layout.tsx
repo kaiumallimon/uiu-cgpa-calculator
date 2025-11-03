@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "UIU CGPA Calculator",
     description:
       "A clean and fast GPA & CGPA calculator built for United International University students.",
-    url: "https://uiu-cgpa-calculator.vercel.app",
+    url: "https://uiu-cgpa-calculator-three.vercel.app/",
     siteName: "UIU CGPA Calculator",
     locale: "en_US",
     type: "website",
