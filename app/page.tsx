@@ -38,7 +38,7 @@ export default function Home() {
     { value: 0.0, label: "F" },
   ];
 
-  // 🧭 Detect scroll to toggle header visibility
+  // scroll to toggle header visibility
   useEffect(() => {
     const handleScroll = () => {
       setShowHeader(window.scrollY > 60);
@@ -47,7 +47,6 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // 🧮 Calculations
   const calculateCGPA = () => {
     if (previousCGPA === null || creditsCompleted === null) return "0.00";
 
@@ -104,7 +103,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
     >
-      {/* 🌫 Animated Sticky Header */}
+      {/* Animated Sticky Header */}
       <AnimatePresence>
         {showHeader && (
           <motion.div
@@ -129,7 +128,7 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      {/* 🧮 Main Content */}
+      {/* Main Content */}
       <motion.div
         className="max-w-4xl mx-auto space-y-8 mt-4"
         initial={{ opacity: 0, y: 20 }}
@@ -192,7 +191,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 🧩 Dynamic Course Inputs */}
+        {/* Dynamic Course Inputs */}
         <div className="space-y-4">
           <Label className="text-lg font-semibold">Add Courses</Label>
 
@@ -295,7 +294,7 @@ export default function Home() {
           
         
 
-        {/* 📊 Results Section */}
+        {/* Results Section */}
         <motion.div
           className="bg-white rounded-lg shadow-sm p-6 space-y-3"
           initial={{ opacity: 0 }}
